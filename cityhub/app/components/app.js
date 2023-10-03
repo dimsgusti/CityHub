@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from './layout.module.css'
-import Logo from '../../images/logo-package/png/logo-color.png'
 import IconSchool from '../../images/icons/school.svg'
 import IconHospital from '../../images/icons/hospital.svg'
 import IconGovernment from '../../images/icons/government.svg'
@@ -8,7 +7,6 @@ import IconReport from '../../images/icons/report.svg'
 import IconLeaf from '../../images/icons/leaf.svg'
 import IconFerisWheel from '../../images/icons/feris_wheel.svg'
 import Image from 'next/image'
-import { Lateef } from 'next/font/google'
 
 export default function App(){
     return(
@@ -23,9 +21,11 @@ export default function App(){
                             <div className={styles.appClick}>
                                 <Image 
                                 src={IconHospital}
-                                width={100}
-                                height={100}
-                                className='mt-4'
+                                width={50}
+                                height={50}
+                                className='mt-4 md:w-[6.25rem] md:h-[6.25rem]'
+                                alt='Kesehatan'
+                                priority
                                 />
                                 <h1 className='text-2xl mt-2 text-center'>Kesehatan</h1>
                             </div>
@@ -36,9 +36,10 @@ export default function App(){
                             <div className={styles.appClick}>
                                 <Image 
                                 src={IconSchool}
-                                width={100}
-                                height={100}
-                                className='mt-4'
+                                width={50}
+                                height={50}
+                                className='mt-4 md:w-[6.25rem] md:h-[6.25rem]'
+                                alt='Pendidikan'
                                 />
                                 <h1 className='text-2xl mt-2 text-center'>Pendidikan</h1>
                             </div>
@@ -49,9 +50,10 @@ export default function App(){
                             <div className={styles.appClick}>
                                 <Image
                                 src={IconGovernment}
-                                width={100}
-                                height={100}
-                                className='mt-4'
+                                width={50}
+                                height={50}
+                                className='mt-4 md:w-[6.25rem] md:h-[6.25rem]'
+                                alt='Pemerintahan'
                                 />
                                 <h1 className='text-2xl mt-2 text-center'>Pemerintahan</h1>
                             </div>
@@ -62,9 +64,10 @@ export default function App(){
                             <div className={styles.appClick}>
                                 <Image
                                 src={IconReport}
-                                width={100}
-                                height={100}
-                                className='mt-4'
+                                width={50}
+                                height={50}
+                                className='mt-4 md:w-[6.25rem] md:h-[6.25rem]'
+                                alt='Keamanan'
                                 />
                                 <h1 className='text-2xl mt-2 text-center'>Keamanan</h1>
                             </div>
@@ -75,9 +78,10 @@ export default function App(){
                             <div className={styles.appClick}>
                                 <Image
                                 src={IconLeaf}
-                                width={100}
-                                height={100}
-                                className='mt-4'
+                                width={50}
+                                height={50}
+                                className='mt-4 md:w-[6.25rem] md:h-[6.25rem]'
+                                alt='Lingkungan'
                                 />
                                 <h1 className='text-2xl mt-2 text-center'>Lingkungan</h1>
                             </div>
@@ -88,9 +92,10 @@ export default function App(){
                             <div className={styles.appClick}>
                                 <Image
                                 src={IconFerisWheel}
-                                width={100}
-                                height={100}
-                                className='mt-4'
+                                width={50}
+                                height={50}
+                                className='mt-4 md:w-[6.25rem] md:h-[6.25rem]'
+                                alt='Tempat Hiburan'
                                 />
                                 <h1 className='text-2xl mt-2 text-center'>Tempat Hiburan</h1>
                             </div>

@@ -14,6 +14,7 @@ export default function Footer(){
                             width={100}
                             height={100}
                             className='mr-3'
+                            alt='Logo'
                         />
                         <span className='self-center text-2xl font-semibold whitespace-nowrap mr-16'>WebNusantara</span>
                     </a>

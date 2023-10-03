@@ -5,3 +5,16 @@
 body{
   background-color: #f9f7f7;
 }
+
+#landingPageBg{
+  background-image: url('../images/samarinda.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  #landingPageBg{
+    background-size: contain;
+  }
+}

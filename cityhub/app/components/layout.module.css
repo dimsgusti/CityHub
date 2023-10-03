@@ -28,9 +28,15 @@
     border-radius: 8px;
     border-width: 1px;
     width: 85%;
-    height: 14rem;
+    height: 8rem;
     transition: box-shadow .3s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (min-width: 768px) {
+    .appFrame{
+        height: 12rem;
+    }
 }
 
 .appFrame:hover{
