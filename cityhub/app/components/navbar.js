@@ -19,9 +19,9 @@ export default function Navbar(){
                     <Link href='/' className={styles.btn}>{webName}</Link>
                 </div>
                 <div className="hidden md:flex gap-8 lg:text-md">
-                    <Link href='' className={styles.btn}>Beranda</Link>
-                    <Link href='' className={styles.btn}>Berita</Link>
-                    <Link href='' className={styles.btn}>Informasi</Link>
+                    <Link href='/' className={styles.btn}>Beranda</Link>
+                    <Link href='/pages/berita' className={styles.btn}>Berita</Link>
+                    <Link href='/pages/informasi' className={styles.btn}>Informasi</Link>
                 </div>
                 {/* <div className="hidden lg:block"> */}
                 <div className="lg:block lg:text-lg">

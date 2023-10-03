@@ -7,7 +7,6 @@ import Berita from './components/berita'
 export default function Home() {
   return (
     <main>
-      <Phone />
       <LandingPage />
       <App />
       <Berita />

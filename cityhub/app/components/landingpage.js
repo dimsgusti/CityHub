@@ -8,7 +8,7 @@ export default function LandingPage(){
                 <h1 className="text-xl font-bold">Pusat Informasi Online Kota Samarinda</h1>
                 <h1>By DimasGusti</h1>
                 <div className='w-auto mt-4'>
-                    <Link href='/' className={styles.btnPrimary}>
+                    <Link href='/pages/berita' className={styles.btnPrimary}>
                         Berita Samarinda
                     </Link>
                 </div>
